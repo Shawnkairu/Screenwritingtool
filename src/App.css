@@ -1,0 +1,441 @@
+.fd-app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.05), transparent 28%),
+    linear-gradient(180deg, #2c2c2f 0%, #1f1f21 16%, #19191b 100%);
+  color: #ececec;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.fd-topbar {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.2fr) auto minmax(220px, 1fr);
+  align-items: center;
+  gap: 18px;
+  padding: 14px 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(48, 48, 52, 0.92);
+  backdrop-filter: blur(14px);
+}
+
+.fd-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.fd-topbar-brand h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #f6f6f6;
+}
+
+.fd-topbar-brand p {
+  margin: 4px 0 0;
+  font-family: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fd-nav-chip,
+.fd-header-button,
+.fd-editor-badge {
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.fd-topbar-nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.fd-nav-chip {
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.fd-nav-chip.active {
+  color: #f8f8f8;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+.fd-topbar-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.fd-header-button {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #f1f1f1;
+  padding: 9px 15px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.fd-main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.fd-side-panel {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(24, 24, 26, 0.82);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.fd-map-panel {
+  flex: 0 0 360px;
+}
+
+.fd-chat-panel {
+  flex: 0 0 360px;
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.fd-editor-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.fd-editor-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 12px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(37, 37, 39, 0.92);
+}
+
+.fd-editor-meta,
+.fd-editor-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fd-editor-badge {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #f3f3f3;
+}
+
+.fd-editor-stat {
+  font-family: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fd-element-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fd-element-pill-label {
+  font-family: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.fd-element-pill strong {
+  font-size: 12px;
+  color: #fbfbfb;
+  font-weight: 600;
+}
+
+.fd-ruler {
+  display: grid;
+  grid-template-columns: 104px 1fr;
+  align-items: stretch;
+  gap: 0;
+  min-height: 72px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(32, 32, 34, 0.94);
+}
+
+.fd-ruler-labels {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 14px 12px 12px;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.fd-ruler-track {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.fd-ruler-segment {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 8px 0 12px;
+}
+
+.fd-ruler-segment::after {
+  content: '';
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.fd-ruler-number {
+  align-self: flex-start;
+  margin-left: 8px;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.36);
+}
+
+.fd-ruler-ticks {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  align-items: end;
+  height: 24px;
+  margin-top: 6px;
+}
+
+.fd-ruler-ticks span {
+  justify-self: center;
+  width: 1px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.26);
+}
+
+.fd-ruler-ticks span.major {
+  height: 14px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.fd-editor-stage {
+  flex: 1;
+  min-height: 0;
+  display: block;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.03), transparent 22%),
+    linear-gradient(180deg, #1f1f20 0%, #1a1a1b 100%);
+}
+
+.fd-page-scroll {
+  overflow: auto;
+  padding: 22px 28px 26px;
+  height: 100%;
+}
+
+.fd-page-paper {
+  width: min(100%, 940px);
+  min-height: calc(100% - 8px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background:
+    linear-gradient(180deg, rgba(89, 89, 93, 0.9) 0%, rgba(73, 73, 77, 0.96) 100%);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.fd-page-header,
+.fd-page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 18px;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.fd-page-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.fd-page-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.fd-page-textarea {
+  flex: 1;
+  width: 100%;
+  min-height: 860px;
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  color: #fafafa;
+  caret-color: #ffffff;
+  padding: 1.05in 1.05in 1.3in;
+  margin: 0;
+  font-family: 'Courier Prime', 'Courier New', ui-monospace, monospace;
+  font-size: 18px;
+  line-height: 1.34;
+  letter-spacing: 0.01em;
+}
+
+.fd-page-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.fd-checkin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(28, 28, 30, 0.96);
+}
+
+.fd-checkin-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fd-checkin-copy strong {
+  font-size: 15px;
+  color: #f2f2f2;
+}
+
+.fd-checkin-copy span {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.fd-checkin-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1400px) {
+  .fd-map-panel,
+  .fd-chat-panel {
+    flex-basis: 320px;
+  }
+
+  .fd-topbar {
+    grid-template-columns: minmax(220px, 1fr) auto;
+  }
+
+  .fd-topbar-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .fd-main {
+    flex-direction: column;
+  }
+
+  .fd-map-panel,
+  .fd-chat-panel {
+    flex: 0 0 280px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .fd-editor-column {
+    min-height: 60vh;
+  }
+}
+
+@media (max-width: 780px) {
+  .fd-topbar {
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .fd-topbar-actions {
+    justify-content: flex-start;
+  }
+
+  .fd-editor-toolbar,
+  .fd-checkin {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .fd-ruler,
+  .fd-editor-stage {
+    display: block;
+  }
+
+  .fd-ruler-labels {
+    display: none;
+  }
+
+  .fd-page-scroll {
+    padding: 14px;
+  }
+
+  .fd-page-paper {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .fd-page-textarea {
+    min-height: 70vh;
+    padding: 24px 22px 28px;
+    font-size: 16px;
+  }
+}

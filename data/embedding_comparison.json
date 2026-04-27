@@ -1,0 +1,534 @@
+{
+  "bge-large": {
+    "model_name": "BAAI/bge-large-en-v1.5",
+    "avg_latency_ms": 100.22,
+    "queries": [
+      {
+        "query": "a character confronts their father about a secret from the past",
+        "latency_ms": 132.3,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0123",
+            "distance": 0.4281
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0047",
+            "distance": 0.4338
+          },
+          {
+            "id": "anora-2024__scene_0073",
+            "distance": 0.4478
+          },
+          {
+            "id": "anora-2024__scene_0019",
+            "distance": 0.4481
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0040",
+            "distance": 0.4532
+          }
+        ]
+      },
+      {
+        "query": "two strangers meet in an unexpected place and feel an instant connection",
+        "latency_ms": 94.77,
+        "top_results": [
+          {
+            "id": "a-real-pain-2024__scene_0036",
+            "distance": 0.4613
+          },
+          {
+            "id": "a-real-pain-2024__scene_0020",
+            "distance": 0.4644
+          },
+          {
+            "id": "a-real-pain-2024__scene_0061",
+            "distance": 0.4653
+          },
+          {
+            "id": "a-real-pain-2024__scene_0090",
+            "distance": 0.4654
+          },
+          {
+            "id": "a-real-pain-2024__scene_0014",
+            "distance": 0.4686
+          }
+        ]
+      },
+      {
+        "query": "a detective examines a crime scene alone at night",
+        "latency_ms": 91.44,
+        "top_results": [
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0040",
+            "distance": 0.5092
+          },
+          {
+            "id": "a-real-pain-2024__scene_0072",
+            "distance": 0.5189
+          },
+          {
+            "id": "a-real-pain-2024__scene_0070",
+            "distance": 0.5244
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0065",
+            "distance": 0.5246
+          },
+          {
+            "id": "a-real-pain-2024__scene_0069",
+            "distance": 0.5332
+          }
+        ]
+      },
+      {
+        "query": "a character must make an impossible choice under time pressure",
+        "latency_ms": 125.83,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0182",
+            "distance": 0.4236
+          },
+          {
+            "id": "anora-2024__scene_0123",
+            "distance": 0.437
+          },
+          {
+            "id": "anora-2024__scene_0120",
+            "distance": 0.4379
+          },
+          {
+            "id": "TheUnplaced S1__scene_0038",
+            "distance": 0.4466
+          },
+          {
+            "id": "anora-2024__scene_0168",
+            "distance": 0.4487
+          }
+        ]
+      },
+      {
+        "query": "a quiet scene where nothing is said but everything changes",
+        "latency_ms": 101.26,
+        "top_results": [
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0026",
+            "distance": 0.4245
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0067",
+            "distance": 0.4261
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0040",
+            "distance": 0.4271
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0025",
+            "distance": 0.435
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0032",
+            "distance": 0.4373
+          }
+        ]
+      },
+      {
+        "query": "a group plans a heist or dangerous mission",
+        "latency_ms": 86.15,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0162",
+            "distance": 0.4407
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0001",
+            "distance": 0.4578
+          },
+          {
+            "id": "anora-2024__scene_0120",
+            "distance": 0.4592
+          },
+          {
+            "id": "anora-2024__scene_0089",
+            "distance": 0.4644
+          },
+          {
+            "id": "anora-2024__scene_0116",
+            "distance": 0.4665
+          }
+        ]
+      },
+      {
+        "query": "a character discovers they have been betrayed by someone they trusted",
+        "latency_ms": 85.26,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0123",
+            "distance": 0.3977
+          },
+          {
+            "id": "TheUnplaced S1__scene_0013",
+            "distance": 0.4204
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0040",
+            "distance": 0.4309
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0010",
+            "distance": 0.4355
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0029",
+            "distance": 0.4361
+          }
+        ]
+      },
+      {
+        "query": "an argument between two people who love each other",
+        "latency_ms": 84.05,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0123",
+            "distance": 0.3882
+          },
+          {
+            "id": "anora-2024__scene_0182",
+            "distance": 0.3948
+          },
+          {
+            "id": "anora-2024__scene_0074",
+            "distance": 0.3975
+          },
+          {
+            "id": "anora-2024__scene_0185",
+            "distance": 0.4031
+          },
+          {
+            "id": "anora-2024__scene_0035",
+            "distance": 0.4032
+          }
+        ]
+      },
+      {
+        "query": "a character runs from something, either physically or emotionally",
+        "latency_ms": 99.51,
+        "top_results": [
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0032",
+            "distance": 0.4115
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0040",
+            "distance": 0.4116
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0061",
+            "distance": 0.4253
+          },
+          {
+            "id": "anora-2024__scene_0132",
+            "distance": 0.4268
+          },
+          {
+            "id": "anora-2024__scene_0139",
+            "distance": 0.4275
+          }
+        ]
+      },
+      {
+        "query": "a moment of unexpected comedy in an otherwise tense situation",
+        "latency_ms": 101.59,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0074",
+            "distance": 0.3991
+          },
+          {
+            "id": "a-real-pain-2024__scene_0036",
+            "distance": 0.4094
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0048",
+            "distance": 0.4108
+          },
+          {
+            "id": "blue-moon-2025__scene_0005",
+            "distance": 0.4188
+          },
+          {
+            "id": "blue-moon-2025__scene_0007",
+            "distance": 0.4281
+          }
+        ]
+      }
+    ]
+  },
+  "minilm": {
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "avg_latency_ms": 217.81,
+    "queries": [
+      {
+        "query": "a character confronts their father about a secret from the past",
+        "latency_ms": 1036.5,
+        "top_results": [
+          {
+            "id": "a-real-pain-2024__scene_0029",
+            "distance": 0.7256
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0013",
+            "distance": 0.7401
+          },
+          {
+            "id": "a-real-pain-2024__scene_0121",
+            "distance": 0.7416
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0039",
+            "distance": 0.7455
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0012",
+            "distance": 0.7468
+          }
+        ]
+      },
+      {
+        "query": "two strangers meet in an unexpected place and feel an instant connection",
+        "latency_ms": 497.85,
+        "top_results": [
+          {
+            "id": "a-real-pain-2024__scene_0122",
+            "distance": 0.5677
+          },
+          {
+            "id": "a-real-pain-2024__scene_0114",
+            "distance": 0.6943
+          },
+          {
+            "id": "a-real-pain-2024__scene_0000",
+            "distance": 0.7056
+          },
+          {
+            "id": "a-real-pain-2024__scene_0117",
+            "distance": 0.7218
+          },
+          {
+            "id": "a-real-pain-2024__scene_0001",
+            "distance": 0.7314
+          }
+        ]
+      },
+      {
+        "query": "a detective examines a crime scene alone at night",
+        "latency_ms": 291.42,
+        "top_results": [
+          {
+            "id": "a-real-pain-2024__scene_0070",
+            "distance": 0.6592
+          },
+          {
+            "id": "TheUnplaced S1__scene_0000",
+            "distance": 0.6758
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0006",
+            "distance": 0.6774
+          },
+          {
+            "id": "a-real-pain-2024__scene_0000",
+            "distance": 0.6936
+          },
+          {
+            "id": "TheUnplaced S1__scene_0033",
+            "distance": 0.7078
+          }
+        ]
+      },
+      {
+        "query": "a character must make an impossible choice under time pressure",
+        "latency_ms": 280.99,
+        "top_results": [
+          {
+            "id": "blue-moon-2025__scene_0003",
+            "distance": 0.705
+          },
+          {
+            "id": "TheUnplaced S1__scene_0031",
+            "distance": 0.7211
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0002",
+            "distance": 0.7369
+          },
+          {
+            "id": "a-real-pain-2024__scene_0028",
+            "distance": 0.7484
+          },
+          {
+            "id": "TheUnplaced S1__scene_0029",
+            "distance": 0.7535
+          }
+        ]
+      },
+      {
+        "query": "a quiet scene where nothing is said but everything changes",
+        "latency_ms": 13.81,
+        "top_results": [
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0033",
+            "distance": 0.6288
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0015",
+            "distance": 0.6327
+          },
+          {
+            "id": "blue-moon-2025__scene_0000",
+            "distance": 0.6345
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0026",
+            "distance": 0.6365
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0051",
+            "distance": 0.6426
+          }
+        ]
+      },
+      {
+        "query": "a group plans a heist or dangerous mission",
+        "latency_ms": 13.39,
+        "top_results": [
+          {
+            "id": "a-real-pain-2024__scene_0082",
+            "distance": 0.7143
+          },
+          {
+            "id": "a-real-pain-2024__scene_0086",
+            "distance": 0.7166
+          },
+          {
+            "id": "a-real-pain-2024__scene_0081",
+            "distance": 0.7254
+          },
+          {
+            "id": "a-real-pain-2024__scene_0088",
+            "distance": 0.7274
+          },
+          {
+            "id": "a-real-pain-2024__scene_0023",
+            "distance": 0.7483
+          }
+        ]
+      },
+      {
+        "query": "a character discovers they have been betrayed by someone they trusted",
+        "latency_ms": 14.06,
+        "top_results": [
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0010",
+            "distance": 0.7468
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0016",
+            "distance": 0.7541
+          },
+          {
+            "id": "anora-2024__scene_0123",
+            "distance": 0.7662
+          },
+          {
+            "id": "a-real-pain-2024__scene_0029",
+            "distance": 0.7681
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0013",
+            "distance": 0.7721
+          }
+        ]
+      },
+      {
+        "query": "an argument between two people who love each other",
+        "latency_ms": 11.5,
+        "top_results": [
+          {
+            "id": "anora-2024__scene_0182",
+            "distance": 0.7408
+          },
+          {
+            "id": "anora-2024__scene_0185",
+            "distance": 0.7461
+          },
+          {
+            "id": "anora-2024__scene_0137",
+            "distance": 0.755
+          },
+          {
+            "id": "blue-moon-2025__scene_0011",
+            "distance": 0.7567
+          },
+          {
+            "id": "anora-2024__scene_0063",
+            "distance": 0.7701
+          }
+        ]
+      },
+      {
+        "query": "a character runs from something, either physically or emotionally",
+        "latency_ms": 9.71,
+        "top_results": [
+          {
+            "id": "TheUnplaced S1__scene_0031",
+            "distance": 0.7002
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0002",
+            "distance": 0.7072
+          },
+          {
+            "id": "django-unchained-2012__scene_0000",
+            "distance": 0.7467
+          },
+          {
+            "id": "blue-moon-2025__scene_0011",
+            "distance": 0.7504
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0026",
+            "distance": 0.7532
+          }
+        ]
+      },
+      {
+        "query": "a moment of unexpected comedy in an otherwise tense situation",
+        "latency_ms": 8.89,
+        "top_results": [
+          {
+            "id": "blue-moon-2025__scene_0003",
+            "distance": 0.5238
+          },
+          {
+            "id": "breaking-bad-101-pilot-2008__scene_0023",
+            "distance": 0.6058
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0012",
+            "distance": 0.6125
+          },
+          {
+            "id": "blue-moon-2025__scene_0008",
+            "distance": 0.6194
+          },
+          {
+            "id": "The Sopranos - 1x02 - 46 Long__scene_0042",
+            "distance": 0.6374
+          }
+        ]
+      }
+    ]
+  }
+}

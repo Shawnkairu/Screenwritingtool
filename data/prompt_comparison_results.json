@@ -1,0 +1,35 @@
+[
+  {
+    "version": "v1_baseline",
+    "elapsed_s": 87.1,
+    "response_preview": "This scene sets up some intriguing tension, but there's room for deeper exploration. Here are a few questions to help you refine and enrich this moment:\n\n1. **What is Walter thinking about as he looks out the window?**\n   - Is he contemplating his decision?\n   - Are there specific memories or fears that come to mind?\n\n2. **Why does Walter choose to look at the stacks of cash in the box?**\n   - Wha",
+    "question_count": 18,
+    "craft_terms": 3,
+    "specificity": 6.0,
+    "prescriptions": 1.0,
+    "socratic_rate": 7.2,
+    "response_length": 1486
+  },
+  {
+    "version": "v2_five_dimensions",
+    "elapsed_s": 8.4,
+    "response_preview": "What does your character want to happen?",
+    "question_count": 1,
+    "craft_terms": 1,
+    "specificity": 0.0,
+    "prescriptions": 0.0,
+    "socratic_rate": 14.29,
+    "response_length": 40
+  },
+  {
+    "version": "v3_current",
+    "elapsed_s": 42.3,
+    "response_preview": "What does your character want to happen? What's the worst version of that?",
+    "question_count": 2,
+    "craft_terms": 1,
+    "specificity": 0.0,
+    "prescriptions": 0.0,
+    "socratic_rate": 15.38,
+    "response_length": 74
+  }
+]
