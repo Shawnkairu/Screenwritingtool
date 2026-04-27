@@ -33,12 +33,11 @@ The Instructor is a two-layer AI system. The layers are deliberately separated: 
                │                 │    │                    │
                │ Returns JSON    │    │ Returns natural    │
                │ (no prose)      │    │ language response  │
-               │ max 6000 tokens │    │ max 4000 tokens    │
+               │                 │    │                    │
                └──────────────────┘   └───────────────────┘
                               │                │
                     ┌─────────▼────────────────▼──────────┐
-                    │     Anthropic API (Claude)           │
-                    │     claude-sonnet-4-6                │
+                    │               Qwen                  │
                     └─────────────────────────────────────┘
 ```
 
