@@ -197,7 +197,7 @@ At query time (backend/rag/retrieve.py):
 
 **File:** `src/utils/repairJSON.ts`
 
-The analyst prompt instructs Claude to return only JSON, but the response is frequently truncated mid-structure when approaching the token limit. `repairJSON()` handles this in four steps:
+The analyst prompt instructs Qwen to return only JSON, but the response is frequently truncated mid-structure when approaching the token limit. `repairJSON()` handles this in four steps:
 
 1. Strip trailing commas before `}` or `]`
 2. Attempt parse as-is
