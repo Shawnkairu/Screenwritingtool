@@ -32,28 +32,35 @@ Screenplay input
       ▼
 ┌─────────────────┐
 │  Analyst Layer  │  ← Silent. Returns structured JSON only.
-│  (Claude API)   │    Scenes, characters, relationships,
-│  max 6000 tok   │    structure, skill level, draft stage.
+│      (Qwen)     │      Scenes, characters, relationships,
+│                 │    structure, skill level, draft stage.
 └────────┬────────┘
          │ JSON
          ▼
 ┌─────────────────┐
 │ Instructor Layer│  ← Has personality. Socratic mentor voice.
-│  (Claude API)   │    Receives analyst JSON as context.
-│  max 4000 tok   │    Calibrates to skill level + draft stage.
+│  (    Qwen  )   │    Receives analyst JSON as context.
+│                 │    Calibrates to skill level + draft stage.
 └─────────────────┘
          │ Response
          ▼
    Writer's screen
 ```
+## Product Demo
+1. https://www.loom.com/share/207a8c3dd0e846cda1ba5a13a2c1328c
+2. https://www.loom.com/share/fa1a548ebbf2422fa8b0e3f9d34a8dba
+
+## Technical Demo
+https://www.loom.com/share/588ed635099f4187acc398ca3ce095c2 
+
 
 **Tech stack:**
 - Frontend: React 19 + TypeScript + Vite
 - Visualizations: Recharts (tension arc, character web)
-- AI: Anthropic Claude API (`claude-sonnet-4-6`)
+- AI: Ollama with Qwen 7B
 - Backend: FastAPI
 - RAG: sentence-transformers + ChromaDB
-- Fine-tuning: QLoRA on Phi-3-mini analyst layer *(planned)*
+
 
 **Current verification status:** the corpus, parser, embeddings, Chroma index, retrieval, reranking, and app integration are all verifiable locally. Live analyst/instructor evaluation requires an Anthropic API key.
 
