@@ -226,7 +226,6 @@ backend/
 docs/
   architecture.md               # Full technical architecture
   evaluation.md                 # Evaluation results and analysis
-  scoring-strategy.md           # CS 372 rubric mapping (internal)
 scripts/                        # Data collection and training scripts
 ATTRIBUTION.md                  # AI tool usage documentation
 ```
