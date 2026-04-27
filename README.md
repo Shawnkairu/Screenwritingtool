@@ -1,6 +1,6 @@
 # The Instructor
 
-A Socratic AI screenwriting mentor for serious writers. The Instructor never generates story — it interrogates the writer's choices through questions until the story is airtight.
+A Socratic AI screenwriting mentor for serious writers. The Instructor never generates story, it interrogates the writer's choices through questions and gives feedback until the story is airtight. I was thinking about David Benioff (Game of Thrones Show Runner), and whether this tool would have helped them stick the landing in the last season of GoT having run out of story supply from G.R.R Martin. This tool, is to help writers think more like World Builders and always strive for nuance. 
 
 **Core constraint:** Reactive, not generative. It challenges, provokes, and questions. It never writes for the writer.
 
