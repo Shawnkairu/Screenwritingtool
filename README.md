@@ -8,7 +8,7 @@ A Socratic AI screenwriting mentor for serious writers. The Instructor never gen
 
 ## What It Does
 
-Paste a screenplay excerpt or scene. The Instructor:
+Write/Paste a screenplay excerpt or scene. The Instructor:
 
 1. **Maps the structure** — a silent analyst layer parses the screenplay into structured JSON: tension arc, character profiles, relationship graph, scene-by-scene value shifts, structural markers
 2. **Opens a dialogue** — a Socratic instructor voice, calibrated to your skill level and draft stage, surfaces the 1–2 highest-leverage observations and asks the questions you can't dodge
